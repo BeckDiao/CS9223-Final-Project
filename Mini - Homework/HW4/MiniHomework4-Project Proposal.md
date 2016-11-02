@@ -25,6 +25,7 @@ Cloud Service Necessity:
 2. S3 cloud storage service is another reason for using cloud service, as we don’t need to allocate and attend these user data locally which may incur information security problems. Also, we don’t need to worry about the damage of the user’s data.
 3. Amazon DynamoDB is a fully-managed NoSQL database. When you create a DynamoDB table, you provision the desired amount of request capacity, taking in to account the amount of read and write traffic and the average size of each item. With Dynamic DynamoDB, an open source tool built by independent developer Sebastian Dahlgren. This flexible and highly configurable tool manages the process of scaling the provisioned throughput for DynamoDB tables. [3] We hope to analyze the actual request capacity by a figure similar to the following:
 ![Action](https://media.amazonwebservices.com/blog/2014/dynamic_dynamodb_tadaa_1.png "")
+
 ###Reference:
 ```
 [1] dynamic-dynamodb, Github, https://github.com/sebdah/dynamic-dynamodb/tree/master/docs
